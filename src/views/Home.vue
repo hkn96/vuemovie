@@ -25,7 +25,7 @@
         <router-link :to="'/movie/' + movie.imdbID" class="movie-link">
           <div class="product-image">
             <img :src="movie.Poster" alt="Movie Poster" />
-            <div class="type">{{ movie.Type }}</div>
+            <!-- <div class="type">{{ movie.Type }}</div> -->
           </div>
           <div class="detail">
             <p class="y">{{ movie.Year }}</p>
@@ -168,15 +168,15 @@ export default {
             height: 275px;
             object-fit: cover;
           }
-          .type {
-            position: absolute;
-            padding: 8px 16px;
-            background-color: #42b883;
-            color: #fff;
-            left: 0px;
-            bottom: 16px;
-            text-transform: capitalize;
-          }
+          // .type {
+          //   position: absolute;
+          //   padding: 8px 16px;
+          //   background-color: #42b883;
+          //   color: #fff;
+          //   left: 0px;
+          //   bottom: 16px;
+          //   text-transform: capitalize;
+          // }
         }
         .detail {
           background-color: #496583;
